@@ -258,12 +258,12 @@
         var nomorWA = "6285216523767";
 
         var pesanWA =
-            "Assalamu’alaikum,"
-            "Nama:" nama
-            "Kehadiran:"  kehadiran
-            "Pesan:"
-            pesanUser 
-            "Terima kasih 🙏";
+            "Assalamu’alaikum,__  " +
+            "Nama: *" + nama + "__" +
+            "Kehadiran: *" + kehadiran + "__  " +
+            "Pesan:%0A" +
+            pesanUser + "__  " +
+            "Terima kasih 🙏"
 
         var url = "https://wa.me/" + nomorWA + "?text=" + encodeURIComponent(pesanWA);
         window.open(url, "_blank");
@@ -389,6 +389,7 @@
   </body>
 
 </html>
+
 
 
 
